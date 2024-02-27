@@ -1,0 +1,47 @@
+version: "3"
+services:
+    postgres:
+        image: postgres:16.0-alpine
+        environment:
+            POSTGRES_DB: "oil_m"
+            POSTGRES_USER: "oim_m"
+            POSTGRES_PASSWORD: "oil_m"
+            PGDATA: "/var/lib/postgresql/data/pgdata"
+        volumes:
+            - db_data:/var/lib/postgresql/data
+        ports:
+            - "5432:5432"
+        networks:
+            - app
+    php:
+        build:
+            context: ./php
+            args:
+                TIMEZONE: ${TIMEZONE}
+        user: "1000:1000"
+        environment:
+            PHP_IDE_CONFIG: "serverName=Docker"
+        volumes:
+            - ../:/var/www
+        networks:
+            - app
+    nginx:
+        build:
+            context: ./nginx
+        volumes:
+            - ../:/var/www
+            - app_vendor:/var/www/vendor
+        ports:
+            - 80:80
+        networks:
+            - app
+        env_file:
+            - .env.nginx
+
+volumes:
+    app_var:
+    app_vendor:
+    db_data:
+
+networks:
+    app:
