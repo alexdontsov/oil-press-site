@@ -5,8 +5,9 @@ declare(strict_types=1);
 namespace Database\Seeders;
 
 use App\Models\Page;
+use Illuminate\Database\Seeder;
 
-class PageSeeder
+class PageSeeder extends Seeder
 {
     public function run(): void
     {
@@ -20,16 +21,16 @@ class PageSeeder
                 'description' => '',
             ]
         );
-
-        Page::query()->firstOrCreate(
-            [
-                'title' => 'Контакты',
-                'slug' => 'about',
-                'thumbnail' => '',
-                'body' => '',
-                'keywords' => '',
-                'description' => '',
-            ]
-        );
+//
+//        Page::query()->firstOrCreate(
+//            [
+//                'title' => 'Контакты',
+//                'slug' => 'about',
+//                'thumbnail' => '',
+//                'body' => '',
+//                'keywords' => '',
+//                'description' => '',
+//            ]
+//        );
     }
 }
