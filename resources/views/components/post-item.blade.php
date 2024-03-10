@@ -5,8 +5,8 @@
         </div>
         <div class="blog-content">
             <div class="title-blog">
-                <h3><a href="/news/{{$post->slug}}">{{$post->title}}</a></h3>
-                <p>Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis.</p>
+                <h3><a href="/news/{{$post->slug}}">{{Str::limit($post->title, 35, '...')}}</a></h3>
+                <p>{!! Str::limit($post->body, 100, '...') !!}</p>
             </div>
         </div>
     </div>

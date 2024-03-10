@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', \App\Http\Controllers\MainPageController::class)->name('Main page');
+Route::get('/news', \App\Http\Controllers\PostListController::class)->name('List post');
 Route::get('/news/{slug}', \App\Http\Controllers\PostViewController::class)->name('View post');
 Route::get('/catalog', \App\Http\Controllers\CatalogController::class)->name('Catalog');
 Route::get('/portfolio', \App\Http\Controllers\CatalogController::class)->name('Catalog');

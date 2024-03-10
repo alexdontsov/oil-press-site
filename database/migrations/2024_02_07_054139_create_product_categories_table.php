@@ -15,6 +15,10 @@ return new class extends Migration
             $table->id();
             $table->string('title', 2048);
             $table->string('slug', 2048);
+            $table->string('image', 2048);
+            $table->longText('keywords');
+            $table->longText('description');
+            $table->integer('order_by')->default(0);
             $table->timestamps();
         });
     }

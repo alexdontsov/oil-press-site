@@ -21,6 +21,8 @@ class SliderResource extends Resource
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
     protected static ?string $navigationGroup = 'Контент';
     protected static ?string $label = 'Слайдер';
+
+    protected static ?string $pluralModelLabel = 'Слайдер';
     protected static ?string $modelLabel = 'Слайдер';
 
     public static function form(Form $form): Form

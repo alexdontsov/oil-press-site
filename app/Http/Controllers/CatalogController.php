@@ -4,16 +4,15 @@ declare(strict_types=1);
 
 namespace App\Http\Controllers;
 
-use App\Models\Product;
+use App\Models\ProductCategory;
 use Illuminate\View\View;
 
 class CatalogController extends Controller
 {
     public function __invoke(): View
     {
-//        $post = Product::where('slug', $slug)->firstOrFail();
         return view('catalog', [
-//            'post' => $post
+            'categories' => ProductCategory::all()->sortBy('order_by')
         ]);
     }
 }

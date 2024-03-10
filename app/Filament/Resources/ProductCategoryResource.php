@@ -10,8 +10,6 @@ use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Illuminate\Support\Str;
 
 class ProductCategoryResource extends Resource
@@ -19,6 +17,8 @@ class ProductCategoryResource extends Resource
     protected static ?string $model = ProductCategory::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    public static ?string $label = 'Категории продуктов';
+    protected static ?string $pluralModelLabel = 'Категории продуктов';
 
     public static function form(Form $form): Form
     {

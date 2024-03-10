@@ -2599,23 +2599,6 @@
 	border: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.blog-img .img-fluid {
+    max-height: 193px;
+}
