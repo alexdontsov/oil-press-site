@@ -11,8 +11,7 @@ class PostListController extends Controller
 {
     public function __invoke(): View
     {
-        $posts = Post::query();
-
+        $posts = Post::query()->orderBy('published_at', 'desc')->paginate(10);
         return view('post-list', [
             'posts' => $posts
         ]);

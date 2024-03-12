@@ -2602,3 +2602,7 @@
 .blog-img .img-fluid {
     max-height: 193px;
 }
+
+.post-list h3 a {
+    color: #1b1e21;
+}

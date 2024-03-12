@@ -3,6 +3,12 @@ ARG TIMEZONE
 
 COPY php.ini /usr/local/etc/php/conf.d/docker-php-config.ini
 
+#RUN apt-get update && apt-get install -y gnupg wget
+#
+#RUN wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key add -
+#RUN sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ lsb_release -cs-pgdg main" >> /etc/apt/sources.list.d/pgdg.list'
+
+
 RUN apt-get update && apt-get install -y \
     gnupg \
     g++ \
@@ -21,8 +27,16 @@ RUN apt-get update && apt-get install -y \
     libpq-dev \
     && apt purge -y --auto-remove
 
-RUN pecl install xdebug \
-    && docker-php-ext-enable xdebug
+RUN curl -fsSL https://www.postgresql.org/media/keys/ACCC4CF8.asc|gpg --dearmor -o /etc/apt/trusted.gpg.d/postgresql.gpg
+RUN sh -c 'echo "deb https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+
+
+RUN apt-get update && apt-get install -y postgresql-client-16
+
+
+
+#RUN pecl install xdebug \
+#    && docker-php-ext-enable xdebug
 
 RUN docker-php-ext-configure pgsql -with-pgsql=/usr/local/pgsql
 RUN docker-php-ext-install \

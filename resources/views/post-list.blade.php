@@ -3,10 +3,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>{{$post->title}}</h2>
+                    <h2>Новости</h2>
                     <ul class="breadcrumb">
                         <li class="breadcrumb-item"><a href="/">Главная</a></li>
-                        <li class="breadcrumb-item active"><a href="/news">Новости</a></li>
+                        <li class="breadcrumb-item active">Новости</li>
                     </ul>
                 </div>
             </div>
@@ -16,8 +16,10 @@
     <!-- Start About Page  -->
     <div class="about-box-main">
         <div class="container">
-            <div class="row">
-                {!! $post->body !!}
+            <div class="row post-list">
+                @foreach($posts as $post)
+                    <x-post-item :post="$post"></x-post-item>
+                @endforeach
             </div>
         </div>
     </div>

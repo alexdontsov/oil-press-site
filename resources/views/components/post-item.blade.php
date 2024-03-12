@@ -5,6 +5,7 @@
         </div>
         <div class="blog-content">
             <div class="title-blog">
+                <span>{{ date('d/m/Y', strtotime($post->published_at)) }}</span>
                 <h3><a href="/news/{{$post->slug}}">{{Str::limit($post->title, 35, '...')}}</a></h3>
                 <p>{!! Str::limit($post->body, 100, '...') !!}</p>
             </div>
