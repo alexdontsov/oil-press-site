@@ -80,8 +80,8 @@
                     <div class="special-menu text-center">
                         <div class="button-group filter-button-group">
                             <button class="active" data-filter="*">Все</button>
-                            <button data-filter=".top-featured">Маслопрессы</button>
-                            <button data-filter=".best-seller">Маслофильтры</button>
+                            <button data-filter=".new">Новинка</button>
+                            <button data-filter=".best-seller">Акция</button>
                         </div>
                     </div>
                 </div>
