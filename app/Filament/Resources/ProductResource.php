@@ -43,7 +43,11 @@ class ProductResource extends Resource
                             Forms\Components\RichEditor::make('body')
                                 ->required(),
                             Forms\Components\Toggle::make('active')
-                                ->required(),
+                                ->required()->label('Опубликован'),
+                            Forms\Components\Toggle::make('is_new')
+                                ->required()->label('Новый товар'),
+                            Forms\Components\Toggle::make('sale')
+                                ->required()->label('Акция'),
                         ])->columnSpan(8),
 
                     Forms\Components\Card::make()
