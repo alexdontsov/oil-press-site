@@ -12,6 +12,7 @@ use Filament\Tables;
 use Filament\Tables\Table;
 use Illuminate\Support\Str;
 use Livewire\Features\SupportFileUploads\TemporaryUploadedFile;
+use Mohamedsabil83\FilamentFormsTinyeditor\Components\TinyEditor;
 
 class PostResource extends Resource
 {
@@ -36,7 +37,9 @@ class PostResource extends Resource
                         Forms\Components\TextInput::make('slug')
                             ->required()
                             ->maxLength(2048),
-                        Forms\Components\RichEditor::make('body')
+                        TinyEditor::make('body')
+                            ->showMenuBar()
+                            ->fileAttachmentsDirectory('posts')
                             ->required(),
                         Forms\Components\TextInput::make('meta_title')
                             ->maxLength(255),

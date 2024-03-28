@@ -15,6 +15,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Illuminate\Support\Str;
 use Livewire\Features\SupportFileUploads\TemporaryUploadedFile;
+use Mohamedsabil83\FilamentFormsTinyeditor\Components\TinyEditor;
 
 class ProductResource extends Resource
 {
@@ -40,8 +41,9 @@ class ProductResource extends Resource
                             Forms\Components\TextInput::make('slug')
                                 ->required()
                                 ->maxLength(2048),
-                            Forms\Components\RichEditor::make('body')
-                                ->required(),
+                            TinyEditor::make('body')
+                                ->showMenuBar()
+                                ->fileAttachmentsDirectory('products'),
                             Forms\Components\Toggle::make('active')
                                 ->required()->label('Опубликован'),
                             Forms\Components\Toggle::make('is_new')
