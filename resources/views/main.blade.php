@@ -7,19 +7,19 @@
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="shop-cat-box">
                         <img class="img-fluid" src="images/category-oil-press.png" alt="" />
-                        <a class="btn hvr-hover" href="#">Маслопрессы</a>
+                        <a class="btn hvr-hover" href="/catalog/oil-presses">Маслопрессы</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="shop-cat-box">
                         <img class="img-fluid" src="app/product_category/oil_filter.jpg" alt="" />
-                        <a class="btn hvr-hover" href="#">Маслофильтры</a>
+                        <a class="btn hvr-hover" href="/catalog/oil-filters">Маслофильтры</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="shop-cat-box">
                         <img class="img-fluid" src="app/product_category/thumbs_zarovniy.png" alt="" />
-                        <a class="btn hvr-hover" href="#">Жаровня паровая</a>
+                        <a class="btn hvr-hover" href="/catalog/zharovniy-parovaya">Жаровня паровая</a>
                     </div>
                 </div>
             </div>
@@ -30,40 +30,10 @@
                         <p>Купить оборудование для производства растительного масла.</p>
                     </div>
                 </div>
-                <!--                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">-->
-                <!--                    <div class="shop-cat-box">-->
-                <!--                        <img class="img-fluid" src="images/category-oil-press.png" alt="" />-->
-                <!--                        <a class="btn hvr-hover" href="#">Запчасти для маслопрессов, маслофильтров и жаровен</a>-->
-                <!--                    </div>-->
-                <!--                </div>-->
-                <!--                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">-->
-                <!--                    <div class="shop-cat-box">-->
-                <!--                        <img class="img-fluid" src="images/category-oil-press.png" alt="" />-->
-                <!--                        <a class="btn hvr-hover" href="#">Экструдеры</a>-->
-                <!--                    </div>-->
-                <!--                </div>-->
             </div>
         </div>
     </div>
     <!-- End Categories -->
-
-    <!--	<div class="box-add-products">-->
-    <!--		<div class="container">-->
-    <!--			<div class="row">-->
-    <!--				<div class="col-lg-6 col-md-6 col-sm-12">-->
-    <!--					<div class="offer-box-products">-->
-    <!--						<img class="img-fluid" src="images/add-img-01.jpg" alt="" />-->
-    <!--					</div>-->
-    <!--				</div>-->
-    <!--				<div class="col-lg-6 col-md-6 col-sm-12">-->
-    <!--					<div class="offer-box-products">-->
-    <!--						<img class="img-fluid" src="images/add-img-02.jpg" alt="" />-->
-    <!--					</div>-->
-    <!--				</div>-->
-    <!--			</div>-->
-    <!--		</div>-->
-    <!--	</div>-->
-
     <!-- Start Products  -->
     <div class="products-box">
         <div class="container">

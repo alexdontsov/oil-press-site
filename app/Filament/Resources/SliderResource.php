@@ -13,6 +13,7 @@ use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Illuminate\Support\Str;
+use Livewire\Features\SupportFileUploads\TemporaryUploadedFile;
 
 class SliderResource extends Resource
 {
@@ -31,7 +32,11 @@ class SliderResource extends Resource
             ->schema([
                 Forms\Components\Card::make()
                     ->schema([
-                        Forms\Components\FileUpload::make('image'),
+                        Forms\Components\FileUpload::make('image')
+                            ->getUploadedFileNameForStorageUsing(
+                                fn (TemporaryUploadedFile $file): string => (string) str($file->getClientOriginalName())
+                                    ->prepend('slider-'),
+                            )->directory('sliders'),
                         Forms\Components\TextInput::make('title')
                             ->required()
                             ->maxLength(2048)
