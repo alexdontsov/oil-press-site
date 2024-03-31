@@ -18,7 +18,6 @@ class MainPageController extends Controller
         $sliders = Slider::query()->orderBy('order', 'desc')->get();
 
         return view('main', [
-            'page' => 'test',
             'sliders' => $sliders,
             'posts' => $posts,
             'products' => $products,
