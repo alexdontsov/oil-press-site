@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 @include('block.head')
-@include('block.main_top')
+{{--@include('block.main_top')--}}
 <body>
 @include('block.main_menu')
 {{ $slot }}
@@ -9,40 +9,40 @@
 <footer>
     <div class="footer-main">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="footer-top-box">
-                        <h3>Время работы</h3>
-                        <ul class="list-time">
-                            <li>Понедельник - Пятница: 08:00 до 17:00</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="footer-top-box">
-                        <h3>Новости и акции</h3>
-                        <form class="newsletter-box">
-                            <div class="form-group">
-                                <input class="" type="email" name="Email" placeholder="Email Address*" />
-                                <i class="fa fa-envelope"></i>
-                            </div>
-                            <button class="btn hvr-hover" type="submit">Подписаться</button>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="footer-top-box">
-                        <h3>Социальные сети</h3>
-                        <p>Подпишитесь на наши социальные сети, чтобы быть в курсе событий.</p>
-                        <ul>
-                            <li><a href="#"><i class="fab fa-vk" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fab fa-telegram" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <hr>
+{{--            <div class="row">--}}
+{{--                <div class="col-lg-4 col-md-12 col-sm-12">--}}
+{{--                    <div class="footer-top-box">--}}
+{{--                        <h3>Время работы</h3>--}}
+{{--                        <ul class="list-time">--}}
+{{--                            <li>Понедельник - Пятница: 08:00 до 17:00</li>--}}
+{{--                        </ul>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-lg-4 col-md-12 col-sm-12">--}}
+{{--                    <div class="footer-top-box">--}}
+{{--                        <h3>Новости и акции</h3>--}}
+{{--                        <form class="newsletter-box">--}}
+{{--                            <div class="form-group">--}}
+{{--                                <input class="" type="email" name="Email" placeholder="Email Address*" />--}}
+{{--                                <i class="fa fa-envelope"></i>--}}
+{{--                            </div>--}}
+{{--                            <button class="btn hvr-hover" type="submit">Подписаться</button>--}}
+{{--                        </form>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-lg-4 col-md-12 col-sm-12">--}}
+{{--                    <div class="footer-top-box">--}}
+{{--                        <h3>Социальные сети</h3>--}}
+{{--                        <p>Подпишитесь на наши социальные сети, чтобы быть в курсе событий.</p>--}}
+{{--                        <ul>--}}
+{{--                            <li><a href="#"><i class="fab fa-vk" aria-hidden="true"></i></a></li>--}}
+{{--                            <li><a href="#"><i class="fab fa-telegram" aria-hidden="true"></i></a></li>--}}
+{{--                            <li><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>--}}
+{{--                        </ul>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <hr>--}}
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="footer-widget">

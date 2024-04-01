@@ -268,8 +268,9 @@
 }
 .login-box{
     float: right;
-    width: 120px;
-    margin-left: 20px;
+    display: inline-block;
+    /*width: 120px;*/
+    /*margin-left: 20px;*/
 }
 
 .login-box .form-control{
@@ -892,7 +893,7 @@
      font-size: 16px;
 }
  .products-box{
-     padding: 70px 0px;
+     padding: 5px 0px;
 }
  .special-menu{
      margin-bottom: 40px;
