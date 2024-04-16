@@ -38,15 +38,11 @@
                             <span class="sr-only">Next</span>
                         </a>
                         <ol class="carousel-indicators">
-                            <li data-target="#carousel-example-1" data-slide-to="0" class="active">
-                                <img class="d-block w-100 img-fluid" src="images/smp-img-01.jpg" alt="" />
-                            </li>
-                            <li data-target="#carousel-example-1" data-slide-to="1">
-                                <img class="d-block w-100 img-fluid" src="images/smp-img-02.jpg" alt="" />
-                            </li>
-                            <li data-target="#carousel-example-1" data-slide-to="2">
-                                <img class="d-block w-100 img-fluid" src="images/smp-img-03.jpg" alt="" />
-                            </li>
+                            @foreach ($product->images as $image)
+                                <li data-target="#carousel-example-1" data-slide-to="{{$loop->index}}" @if ($loop->first) class="active" @endif>
+                                    <img class="d-block w-100 img-fluid" src="{{URL::asset('/app/' . $image)}}" alt="{{$product->title}}" />
+                                </li>
+                            @endforeach
                         </ol>
                     </div>
                 </div>

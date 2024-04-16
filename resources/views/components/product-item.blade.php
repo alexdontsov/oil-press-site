@@ -5,7 +5,7 @@
                 @if ($product->sale) <p class="sale">Акция</p> @endif
                 @if ($product->is_new) <p class="new">Новинка</p> @endif
             </div>
-            <a href="{{$product->slug}}">
+            <a href="/catalog/{{$product->category->slug}}/{{$product->slug}}">
                 <img src="{{URL::asset('/app/' . $product->images[0])}}" class="img-fluid" alt="Image" height="370px" width="350px">
             </a>
         </div>

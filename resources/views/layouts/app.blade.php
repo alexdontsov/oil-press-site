@@ -110,6 +110,14 @@
 <script src="/js/form-validator.min.js"></script>
 <script src="/js/contact-form-script.js"></script>
 <script src="/js/custom.js"></script>
+
+<script src="js/lightgallery.umd.js"></script>
+<!-- Or use the minified version -->
+<script src="js/lightgallery.min.js"></script>
+
+<!-- lightgallery plugins -->
+<script src="js/plugins/lg-thumbnail.umd.js"></script>
+<script src="js/plugins/lg-zoom.umd.js"></script>
 </body>
 
 </html>

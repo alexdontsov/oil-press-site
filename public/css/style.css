@@ -2471,7 +2471,7 @@
  .carousel-indicators{
      position: relative;
      bottom: 0;
-     background: #000000;
+     border: 1px #00aced;
 }
  .carousel-indicators li{
      width: 30%;
