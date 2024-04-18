@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
-@include('block.head')
-{{--@include('block.main_top')--}}
+@include('block.head', ['title' => $title])
 <body>
 @include('block.main_menu')
 {{ $slot }}
