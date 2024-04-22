@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
-@include('block.head', ['title' => $title])
+@include('block.head', ['title' => $title ?? ''])
 <body>
 @include('block.main_menu')
 {{ $slot }}

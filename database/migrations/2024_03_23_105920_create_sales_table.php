@@ -11,14 +11,14 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('sales', function (Blueprint $table) {
-            $table->id();
-            $table->text('title');
-            $table->text('link');
-            $table->datetimes('start');
-            $table->datetimes('end');
-            $table->timestamps();
-        });
+//        Schema::create('sales', function (Blueprint $table) {
+//            $table->id();
+//            $table->text('title');
+//            $table->text('link');
+//            $table->datetimes('start')->nullable();
+//            $table->datetimes('end');
+//            $table->timestamps();
+//        });
     }
 
     /**
