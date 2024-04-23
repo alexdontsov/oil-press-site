@@ -67,13 +67,13 @@
                         <h4>Контакты</h4>
                         <ul>
                             <li>
-                                <p><i class="fas fa-map-marker-alt"></i>Адрес: Michael I. Days 3756 <br>Preston Street Wichita,<br> KS 67213 </p>
+                                <p><i class="fas fa-map-marker-alt"></i>Адрес: Алтайский край, г.Барнаул, ул.Челюскинцев 82, 2 этаж</p>
                             </li>
                             <li>
                                 <p><i class="fas fa-phone-square"></i>Телефон: <a href="tel:+79386081133">+7-938-608-1133</a></p>
                             </li>
                             <li>
-                                <p><i class="fas fa-envelope"></i>Email: <a href="mailto:contactinfo@gmail.com">contactinfo@gmail.com</a></p>
+                                <p><i class="fas fa-envelope"></i>Email: <a href="mailto:xcoilpress@mail.ru">xcoilpress@mail.ru</a></p>
                             </li>
                         </ul>
                     </div>
@@ -86,8 +86,7 @@
 
 <!-- Start copyright  -->
 <div class="footer-copyright">
-    <p class="footer-company">Все права защищены. &copy; 2024 <a href="#">Oil Machine</a> Design By :
-        <a href="#">html design</a></p>
+    <p class="footer-company">Все права защищены. &copy; 2024 <a href="#">ООО «Торговая компания Синьчэнь»</a></p>
 </div>
 <!-- End copyright  -->
 

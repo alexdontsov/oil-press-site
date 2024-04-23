@@ -2609,7 +2609,13 @@
     max-height: 167px;
     width: 100%;
     object-fit: contain;
+    /*transition: 0.5s all ease-in-out;*/
 }
+
+/*.products-single a:hover .img-fluid {*/
+/*    transform: scale(1.5);*/
+/*}*/
+
 
 .post-list h3 a {
     color: #1b1e21;
