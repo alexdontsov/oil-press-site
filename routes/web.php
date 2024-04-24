@@ -11,3 +11,4 @@ Route::get('/catalog/{category}/{slug}', \App\Http\Controllers\ProductViewContro
 Route::get('/catalog/{category}', \App\Http\Controllers\CatalogCategoryController::class)->name('Catalog category');
 Route::get('/about', \App\Http\Controllers\AboutPageController::class)->name('About page');
 Route::get('/contact', \App\Http\Controllers\ContactPageController::class)->name('Contact page');
+Route::post('/contact', \App\Http\Controllers\ContactPageController::class)->name('Contact page send');

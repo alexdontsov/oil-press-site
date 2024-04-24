@@ -17,12 +17,14 @@ function submitForm(){
     var email = $("#email").val();
     var msg_subject = $("#msg_subject").val();
     var message = $("#message").val();
+    var token = $("input[name=_token]").val();
 
 
     $.ajax({
         type: "POST",
-        url: "php/form-process.php",
+        url: "/contact",
         data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&message=" + message,
+        headers: {'X-CSRF-TOKEN': token},
         success : function(text){
             if (text == "success"){
                 formSuccess();

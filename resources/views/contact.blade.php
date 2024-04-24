@@ -23,6 +23,7 @@
                         <h2>ФОРМА ОБРАТНОЙ СВЯЗИ</h2>
                         <p>Вы можете написать нам сообщение, мы обязательно прочтём его и ответим Вам.</p>
                         <form id="contactForm">
+                            @csrf
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">

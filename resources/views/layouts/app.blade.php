@@ -46,8 +46,9 @@
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="footer-widget">
                         <h4>О сайте</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p>ООО «Торговая компания Синьчэнь» - профессиональная компания, занимающаяся импортом и экспортом
+                            высококачественного оборудования для производства пищевых масел, а также вспомогательного оборудования.</p>
+
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12">
@@ -57,7 +58,7 @@
                             <li><a href="/">Главная</a></li>
                             <li><a href="/about">О нас</a></li>
                             <li><a href="/catalog">Продукция</a></li>
-                            <li><a href="/portfolio">Портфолио</a></li>
+                            <li><a href="/portfolio">Примеры внедрений</a></li>
                             <li><a href="/contact">Контакты</a></li>
                         </ul>
                     </div>
