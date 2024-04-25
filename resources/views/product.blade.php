@@ -21,7 +21,7 @@
     <div class="shop-detail-box-main">
         <div class="container">
             <div class="row">
-                <div class="col-xl-5 col-lg-5 col-md-6">
+                <div class="col-xl-7 col-lg-7 col-md-8">
                     <div id="carousel-example-1" class="single-product-slider carousel slide" data-ride="carousel">
                         <div class="carousel-inner" role="listbox">
                             @foreach ($product->images as $image)
@@ -46,11 +46,13 @@
                         </ol>
                     </div>
                 </div>
-                <div class="col-xl-7 col-lg-7 col-md-6">
+                <div class="col-xl-5 col-lg-5 col-md-4">
                     <div class="single-product-details">
-                        <h2>{{$product->title}}</h2>
-                        <h4>Описание:</h4>
-                        {!! $product->body !!}
+                        <h1>{{$product->title}}</h1>
+                        Маслопресс предварительного отжима с возможностью регулировки толщины жмыха без остановки
+                        <br>
+                        <br>
+                        <hr>
                         <div class="add-to-btn">
                             <div class="add-comp">
                                 <a class="btn hvr-hover" href="#"><i class="fas fa-dot-circle"></i> Получить подробную информацию</a>
@@ -61,6 +63,19 @@
                                 <a class="btn hvr-hover" href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row my-5">
+                <div class="card card-outline-secondary my-4">
+                    <div class="card-header">
+                        <h2>Описание</h2>
+                    </div>
+                    <div class="card-body">
+                        {!! $product->body !!}
+                        <hr>
                     </div>
                 </div>
             </div>

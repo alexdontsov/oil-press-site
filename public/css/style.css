@@ -2650,3 +2650,17 @@
 .navbar {
     padding: 0.3rem 1rem;
 }
+
+
+.shop-detail-box-main .carousel-item img.d-block {
+    height: 100%;
+    max-height: 467px;
+    width: 100%;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+.shop-detail-box-main h1 {
+    color: #b66d00;
+    font-size: 38px;
+}
