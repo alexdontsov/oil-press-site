@@ -25,7 +25,7 @@
             <!-- /.navbar-collapse -->
         </div>
         <div class="right-phone-box">
-            <a class="btn hvr-hover" href="tel:+79386081133" style="color: white">Телефон: +7-938-608-1133</a>
+            <a class="btn hvr-hover" href="tel:+79836081133" style="color: white">Телефон: +7-983-608-1133</a>
         </div>
     </nav>
     <!-- End Navigation -->

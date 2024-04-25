@@ -6,7 +6,7 @@
                 <div class="custom-select-box">
                 </div>
                 <div class="right-phone-box">
-                    <b><p>Телефон: <a href="tel:+79386081133"> +7-938-608-1133</a></p></b>
+                    <b><p>Телефон: <a href="tel:+79836081133"> +7-983-608-1133</a></p></b>
                 </div>
                 <div class="our-link">
                     <ul>
