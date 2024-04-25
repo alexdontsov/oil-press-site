@@ -2612,6 +2612,27 @@
     /*transition: 0.5s all ease-in-out;*/
 }
 
+.categories-shop .products-single .img-fluid {
+    height: 100%;
+    max-height: 267px;
+    width: 100%;
+    object-fit: contain;
+    vertical-align: middle;
+    /*height: 450px;*/
+    /*object-fit: cover;*/
+}
+
+.categories-shop .products-single .img-fluid:hover {
+    transform: scale(1.1);
+    transition: transform .5s ease;
+}
+
+.categories-shop .products-single a.image-product-lin {
+    display: block;
+    height: 300px;
+}
+
+
 /*.products-single a:hover .img-fluid {*/
 /*    transform: scale(1.5);*/
 /*}*/

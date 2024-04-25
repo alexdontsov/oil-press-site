@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row">
                 @foreach($products as $product)
-                    <x-product-item :product="$product"></x-product-item>
+                    <x-product-item-cat :product="$product"></x-product-item-cat>
                 @endforeach
             </div>
             <div class="row">
@@ -29,7 +29,7 @@
                         <h1></h1>
                         <p>В каталоге оборудования представлены самые популярные позиции из нашего ассортимента.<br>
                             Более подробную информацию Вы можете получить, позвонив по номеру телефона
-                            из раздела<br> "Контактная информация", либо воспользовавшись формой обратной связи. </p>
+                            из раздела<br> "Контактная информация", либо воспользовавшись <a href="/contact">формой обратной связи.</a> </p>
                     </div>
                 </div>
             </div>
