@@ -49,7 +49,7 @@
                 <div class="col-xl-6 col-lg-6 col-md-5">
                     <div class="single-product-details">
                         <h1>{{$product->title}}</h1>
-                        Маслопресс предварительного отжима с возможностью регулировки толщины жмыха без остановки
+                        <p>{{$product->description}}</p>
                         <br>
                         <br>
                         <hr>

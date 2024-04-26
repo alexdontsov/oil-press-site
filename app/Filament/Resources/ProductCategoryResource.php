@@ -41,7 +41,10 @@ class ProductCategoryResource extends Resource
     {
         return $table
             ->columns([
-                //
+                Tables\Columns\TextColumn::make('title')
+                    ->searchable(),
+                Tables\Columns\TextColumn::make('slug')
+                    ->searchable(),
             ])
             ->filters([
                 //

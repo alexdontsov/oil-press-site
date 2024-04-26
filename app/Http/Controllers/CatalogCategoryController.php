@@ -15,7 +15,7 @@ class CatalogCategoryController extends Controller
 
         return view('catalog_category', [
             'category' => $productCategory,
-            'products' => $productCategory->products->sortByDesc('created_at')->sortByDesc('is_new'),
+            'products' => $productCategory->products->sortByDesc('created_at')->sortByDesc('is_new')->sortBy('order'),
         ]);
     }
 }

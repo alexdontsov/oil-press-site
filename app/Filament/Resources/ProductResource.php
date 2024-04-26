@@ -45,6 +45,15 @@ class ProductResource extends Resource
                             TinyEditor::make('body')
                                 ->showMenuBar()
                                 ->fileAttachmentsDirectory('products'),
+                            Forms\Components\TextInput::make('description')
+                                ->maxLength(2048)
+                                ->label('Краткое описание'),
+                            Forms\Components\TextInput::make('key_words')
+                                ->maxLength(2048)
+                                ->label('Ключевые слова (через запятую)'),
+                            Forms\Components\TextInput::make('order')
+                                ->required()
+                                ->label('Сортировка'),
                             Forms\Components\Toggle::make('active')
                                 ->required()->label('Опубликован'),
                             Forms\Components\Toggle::make('is_new')
