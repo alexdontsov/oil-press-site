@@ -6,7 +6,7 @@
                 @if ($product->is_new) <p class="new">Новинка</p> @endif
             </div>
             <a href="/catalog/{{$product->category->slug}}/{{$product->slug}}">
-                <img src="{{URL::asset('/app/' . $product->images != [] ? $product->images[0] : '')}}" class="img-fluid" alt="Image" height="370px" width="350px">
+                <img src="{{URL::asset('/app/' . $product->images[0])}}" class="img-fluid" alt="Image" height="370px" width="350px">
             </a>
         </div>
         <div class="why-text">
