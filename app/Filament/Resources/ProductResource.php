@@ -35,10 +35,11 @@ class ProductResource extends Resource
                             Forms\Components\TextInput::make('title')
                                 ->required()
                                 ->maxLength(2048)
-                                ->reactive()
-                                ->afterStateUpdated(function ($set, $state) {
-                                    $set('slug', Str::slug($state));
-                                }),
+//                                ->reactive()
+//                                ->afterStateUpdated(function ($set, $state) {
+//                                    $set('slug', Str::slug($state));
+//                                })
+                            ,
                             Forms\Components\TextInput::make('slug')
                                 ->required()
                                 ->maxLength(2048),
