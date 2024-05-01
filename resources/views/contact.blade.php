@@ -26,6 +26,12 @@
                             @csrf
                             <div class="row">
                                 <div class="col-md-12">
+                                    <div class="submit-button text-center">
+                                        <div id="msgSubmit" class="h3 text-center hidden alert-success"></div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
                                     <div class="form-group">
                                         <input type="text" class="form-control" id="name" name="name" placeholder="Имя" required data-error="Введите Ваше имя">
                                         <div class="help-block with-errors"></div>
@@ -50,8 +56,6 @@
                                     </div>
                                     <div class="submit-button text-center">
                                         <button class="btn hvr-hover" id="submit" type="submit">Отправить сообщение</button>
-                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                        <div class="clearfix"></div>
                                     </div>
                                 </div>
                             </div>
