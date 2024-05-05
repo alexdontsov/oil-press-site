@@ -66,14 +66,14 @@
                     <div class="contact-info-left">
                         <h2>Контактная информация</h2>
                         <ul>
-                            <li>
-                                <p><i class="fas fa-map-marker-alt"></i>Адрес: Алтайский край, г.Барнаул, ул.Челюскинцев 82, 2 этаж</p>
-                            </li>
+{{--                            <li>--}}
+{{--                                <p><i class="fas fa-map-marker-alt"></i>Адрес: Алтайский край, г.Барнаул, ул.Челюскинцев 82, 2 этаж</p>--}}
+{{--                            </li>--}}
                             <li>
                                 <p><i class="fas fa-phone-square"></i>Телефон: <a href="tel:+7-938-608-1133">+7-983-608-1133</a></p>
                             </li>
                             <li>
-                                <p><i class="fas fa-envelope"></i>Email: <a href="mailto:xcoilpress@mail.ru">xcoilpress@mail.ru</a></p>
+                                <p><i class="fas fa-envelope"></i>Email: <a href="mailto:xcoilpress1133@mail.ru">xcoilpress1133@mail.ru</a></p>
                             </li>
                         </ul>
                     </div>

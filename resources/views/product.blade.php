@@ -55,7 +55,7 @@
                         <hr>
                         <div class="add-to-btn">
                             <div class="add-comp">
-                                <a class="btn hvr-hover" href="#"><i class="fas fa-dot-circle"></i> Получить подробную информацию</a>
+                                <a class="btn hvr-hover" href="#"data-toggle="modal" data-target="#send-product-message" ><i class="fas fa-dot-circle"></i> Получить подробную информацию</a>
                             </div>
                             <div class="share-bar">
                                 <a class="btn hvr-hover" href="#"><i class="fab fa-vk" aria-hidden="true"></i></a>
@@ -82,4 +82,33 @@
         </div>
     </div>
     <!-- End Cart -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="send-product-message" tabindex="-1" role="dialog" aria-labelledby="send-product-message-title" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="send-product-message-title">Получить подробную информацию</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form type="POST" action="/contact">
+                    <div class="modal-body">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Ваш email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Ваш телефон</label>
+                                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Получить информацию</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </x-app-layout>
