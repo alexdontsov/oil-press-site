@@ -108,6 +108,7 @@
 <script src="/js/baguetteBox.min.js"></script>
 <script src="/js/form-validator.min.js"></script>
 <script src="/js/contact-form-script.js"></script>
+<script src="/js/product-info-form-script.js"></script>
 <script src="/js/custom.js"></script>
 
 <script src="js/lightgallery.umd.js"></script>

@@ -11,6 +11,7 @@ use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
 use Illuminate\Support\Str;
+use Livewire\Features\SupportFileUploads\TemporaryUploadedFile;
 
 class ProductCategoryResource extends Resource
 {
@@ -34,6 +35,10 @@ class ProductCategoryResource extends Resource
                 Forms\Components\TextInput::make('slug')
                     ->required()
                     ->maxLength(2048),
+                Forms\Components\FileUpload::make('image')
+                    ->getUploadedFileNameForStorageUsing(
+                        fn (TemporaryUploadedFile $file): string => (string) str($file->getClientOriginalName()),
+                    )->directory('products-category'),
             ]);
     }
 

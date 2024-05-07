@@ -93,19 +93,23 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <form type="POST" action="/contact">
+                <form id="product-info-form">
                     <div class="modal-body">
+                        @csrf
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Ваш email</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                       placeholder="Email" name="email">
                                 </div>
                             <div class="form-group">
                                 <label for="exampleInputPassword1">Ваш телефон</label>
-                                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Телефон"
+                                    name="phone"
+                                >
                             </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Получить информацию</button>
+                        <button id="submit" type="submit" class="btn btn-secondary">Получить информацию</button>
                     </div>
                 </form>
             </div>
