@@ -38,7 +38,7 @@ class ProductCategoryResource extends Resource
                 Forms\Components\FileUpload::make('image')
                     ->getUploadedFileNameForStorageUsing(
                         fn (TemporaryUploadedFile $file): string => (string) str($file->getClientOriginalName()),
-                    )->directory('products-category'),
+                    )->directory('product_category'),
             ]);
     }
 
