@@ -37,7 +37,8 @@ class ProductCategoryResource extends Resource
                     ->maxLength(2048),
                 Forms\Components\FileUpload::make('image')
                     ->getUploadedFileNameForStorageUsing(
-                        fn (TemporaryUploadedFile $file): string => (string) str($file->getClientOriginalName()),
+                        fn (TemporaryUploadedFile $file): string => (string) str($file->getClientOriginalName())
+                            ->prepend('cat-'),
                     )->directory('product_category'),
             ]);
     }

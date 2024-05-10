@@ -58,9 +58,9 @@
                                 <a class="btn hvr-hover" href="#"data-toggle="modal" data-target="#send-product-message" ><i class="fas fa-dot-circle"></i> Получить подробную информацию</a>
                             </div>
                             <div class="share-bar">
-                                <a class="btn hvr-hover" href="#"><i class="fab fa-vk" aria-hidden="true"></i></a>
-                                <a class="btn hvr-hover" href="#"><i class="fab fa-telegram" aria-hidden="true"></i></a>
-                                <a class="btn hvr-hover" href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+                                <script src="https://yastatic.net/share2/share.js"></script>
+                                <div class="ya-share2" data-curtain data-size="m" data-color-scheme=""
+                                     data-services="vkontakte,odnoklassniki,telegram,whatsapp"></div>
                             </div>
                         </div>
                     </div>

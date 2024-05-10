@@ -2510,14 +2510,17 @@
  .single-product-details ul{
      display: inline-block;
      width: 100%;
-     border: 1px #000000 dashed;
      margin-bottom: 30px;
 }
  .single-product-details ul li{
-     width: 50%;
      float: left;
-     padding: 0px 15px;
+     padding: 0px 5px;
 }
+
+.single-product-details .share-bar ul li{
+    background: none;
+}
+
  .size-st .bootstrap-select > .dropdown-toggle.btn-light{
      background: #000000;
      border: none;
@@ -2551,7 +2554,6 @@
  .share-bar{
 }
  .share-bar a {
-     background: #b66d00;
      color: #ffffff;
      padding: 5px 10px;
      display: inline-block;
