@@ -62,6 +62,7 @@
                                 <div class="ya-share2" data-curtain data-size="m" data-color-scheme=""
                                      data-services="vkontakte,odnoklassniki,telegram,whatsapp"></div>
                             </div>
+                            </div>
                         </div>
                     </div>
                 </div>
