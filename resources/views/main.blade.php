@@ -4,24 +4,9 @@
     <div class="categories-shop">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="shop-cat-box">
-                        <img class="img-fluid" src="images/category-oil-press.png" alt="" />
-                        <a class="btn hvr-hover" href="/catalog/oil-presses">Маслопрессы</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="shop-cat-box">
-                        <img class="img-fluid" src="app/product_category/oil_filter.jpg" alt="" />
-                        <a class="btn hvr-hover" href="/catalog/oil-filters">Маслофильтры</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="shop-cat-box">
-                        <img class="img-fluid" src="app/product_category/thumbs_zarovniy.png" alt="" />
-                        <a class="btn hvr-hover" href="/catalog/zharovniy-parovaya">Жаровня паровая</a>
-                    </div>
-                </div>
+                @foreach($categories as $category)
+                    <x-product-category-item :category="$category"></x-product-category-item>
+                @endforeach
             </div>
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 align-content-center">
@@ -41,7 +26,7 @@
                 <div class="col-lg-12">
                     <div class="title-all text-center">
                         <h1>Популярные товары</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus enim.</p>
+                        <p></p>
                     </div>
                 </div>
             </div>
