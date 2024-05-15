@@ -11,7 +11,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 class ProductCategory extends Model
 {
     use HasFactory;
-    protected $fillable = ['title', 'slug', 'image', 'description', 'keywords',];
+    protected $fillable = ['title', 'slug', 'image', 'description', 'keywords', 'order_by'];
 
     public function products(): HasMany
     {

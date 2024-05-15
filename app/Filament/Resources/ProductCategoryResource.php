@@ -40,6 +40,9 @@ class ProductCategoryResource extends Resource
                         fn (TemporaryUploadedFile $file): string => (string) str($file->getClientOriginalName())
                             ->prepend('cat-'),
                     )->directory('product_category'),
+                Forms\Components\TextInput::make('order_by')
+                    ->required()
+                    ->label('Сортировка'),
             ]);
     }
 

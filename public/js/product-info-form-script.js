@@ -1,13 +1,16 @@
 $(function(){
     $('#product-info-form').on('submit', function(e){
+        let token = $("input[name=_token]").val();
+
         e.preventDefault();
         $.ajax({
-            url: 'notifications/subscribe/',
+            url: '/product/get-info-form',
+            headers: {'X-CSRF-TOKEN': token},
             type: 'POST',
-            data: $('#subscribe-email-form').serialize(),
+            data: $('#product-info-form').serialize(),
             success: function(data){
-                $('#responsestatus').val(data);
-                $('#subscription-confirm').modal('show');
+                $('#responsestatus').text(data);
+                setTimeout(function() {$('#send-product-message').modal('hide');}, 1000);
             }
         });
     });

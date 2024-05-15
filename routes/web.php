@@ -12,3 +12,4 @@ Route::get('/catalog/{category}', \App\Http\Controllers\CatalogCategoryControlle
 Route::get('/about', \App\Http\Controllers\AboutPageController::class)->name('About page');
 Route::get('/contact', \App\Http\Controllers\ContactPageController::class)->name('Contact page');
 Route::post('/contact', \App\Http\Controllers\ContactPageController::class)->name('Contact page send');
+Route::post('/product/get-info-form', \App\Http\Controllers\ProductInfoFormController::class)->name('Product get info');

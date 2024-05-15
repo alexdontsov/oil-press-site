@@ -96,7 +96,9 @@
                 </div>
                 <form id="product-info-form">
                     <div class="modal-body">
+                        <div id="responsestatus" style="color: #00bb00; text-align: center"></div>
                         @csrf
+                        <input type="hidden" name="product" value="{{$product->title}}">
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Ваш email</label>
                                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
