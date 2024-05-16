@@ -66,8 +66,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-
 
             <div class="row my-5">
                 <div class="card card-outline-secondary my-4">
@@ -82,9 +80,8 @@
             </div>
         </div>
     </div>
-    <!-- End Cart -->
 
-    <!-- Modal -->
+
     <div class="modal fade" id="send-product-message" tabindex="-1" role="dialog" aria-labelledby="send-product-message-title" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">

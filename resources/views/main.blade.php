@@ -30,18 +30,6 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="special-menu text-center">
-                        <div class="button-group filter-button-group">
-                            <button class="active" data-filter="*">Все</button>
-                            <button data-filter=".new">Новинка</button>
-                            <button data-filter=".best-seller">Акция</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <div class="row special-list">
                 @foreach($products as $product)
                     <x-product-item :product="$product"></x-product-item>
