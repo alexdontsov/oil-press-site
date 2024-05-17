@@ -15,8 +15,8 @@ class MainPageController extends Controller
     public function __invoke(): View
     {
         $posts = Post::query()->orderBy('published_at', 'desc')->paginate(3);
-        $products = Product::query()->orderBy('id', 'desc')->paginate(4);
-        $categories = ProductCategory::query()->orderBy('order_by', 'asc')->paginate(3);
+        $products = Product::query()->where('show_in_main', '=', true)->orderBy('order')->paginate(4);
+        $categories = ProductCategory::query()->orderBy('order_by', 'asc')->paginate(4);
         $sliders = Slider::query()->orderBy('order', 'desc')->get();
 
         return view('main', [

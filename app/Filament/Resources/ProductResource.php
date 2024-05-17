@@ -57,10 +57,9 @@ class ProductResource extends Resource
                                 ->label('Сортировка'),
                             Forms\Components\Toggle::make('active')
                                 ->required()->label('Опубликован'),
-                            Forms\Components\Toggle::make('is_new')
-                                ->required()->label('Новый товар'),
-                            Forms\Components\Toggle::make('sale')
-                                ->required()->label('Акция'),
+                            Forms\Components\Toggle::make('is_new')->label('Новый товар'),
+                            Forms\Components\Toggle::make('sale')->label('Акция'),
+                            Forms\Components\Toggle::make('show_in_main')->label('Показывать на главной'),
                         ])->columnSpan(8),
 
                     Forms\Components\Card::make()

@@ -23,7 +23,8 @@ class Product extends Model
         'is_new',
         'description',
         'key_words',
-        'order'
+        'order',
+        'show_in_main'
     ];
 
     protected $casts = [

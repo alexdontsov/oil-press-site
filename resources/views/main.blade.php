@@ -5,17 +5,17 @@
         <div class="container">
             <div class="row">
                 @foreach($categories as $category)
-                    <x-product-category-item :category="$category"></x-product-category-item>
+                    <x-product-category-item-main :category="$category"></x-product-category-item-main>
                 @endforeach
             </div>
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 align-content-center">
-                    <div class="title-all text-center">
-                        <h1><a href="/catalog">Все категории</a></h1>
-                        <p>Купить оборудование для производства растительного масла.</p>
-                    </div>
-                </div>
-            </div>
+{{--            <div class="row">--}}
+{{--                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 align-content-center">--}}
+{{--                    <div class="title-all text-center">--}}
+{{--                        <h1><a href="/catalog">Все категории</a></h1>--}}
+{{--                        <p>Купить оборудование для производства растительного масла.</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
         </div>
     </div>
     <!-- End Categories -->
