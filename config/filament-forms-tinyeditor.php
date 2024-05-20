@@ -17,6 +17,10 @@ return [
             'toolbar' => 'undo redo removeformat | formatselect fontsizeselect | bold italic | rtl ltr | alignjustify alignright aligncenter alignleft | numlist bullist | forecolor backcolor | blockquote table toc hr | image link media codesample emoticons | wordcount fullscreen | code',
             'upload_directory' => null,
             'advcode_inline' => true,
+            'custom_configs' => [
+                'valid_elements' => '*[*]',
+            ]
+
         ],
 
         'simple' => [
