@@ -34,7 +34,7 @@ class PageResource extends Resource
                             ->required()
                             ->maxLength(2048),
                         TinyEditor::make('body')
-                            ->showMenuBar()
+                            ->showMenuBar()->profile('default')
                             ->fileAttachmentsDirectory('pages')
                             ->required(),
 //                        Forms\Components\TextInput::make('keywords')
