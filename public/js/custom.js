@@ -213,7 +213,8 @@
 	// });
 
     lightGallery(document.getElementById('animated-thumbnails'), {
-        selector: '.carousel-item'
+        selector: '.carousel-item',
+        controls: true
     });
 
 }(jQuery));
