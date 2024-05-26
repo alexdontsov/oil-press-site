@@ -46,9 +46,8 @@
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="footer-widget">
                         <h4>О сайте</h4>
-                        <p>ООО «Синьчэнь» - профессиональная компания, занимающаяся импортом и экспортом
+                        <p>Компания «Синьчэнь» &mdash; профессиональная компания, занимающаяся импортом и экспортом
                             высококачественного оборудования для производства пищевых масел, а также вспомогательного оборудования.</p>
-
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12">
@@ -101,7 +100,7 @@
 <script src="/js/jquery.superslides.min.js"></script>
 <script src="/js/bootstrap-select.js"></script>
 <script src="/js/inewsticker.js"></script>
-<script src="/js/bootsnav.js."></script>
+<script src="/js/bootsnav.js"></script>
 <script src="/js/images-loded.min.js"></script>
 <script src="/js/isotope.min.js"></script>
 <script src="/js/owl.carousel.min.js"></script>
@@ -109,15 +108,12 @@
 <script src="/js/form-validator.min.js"></script>
 <script src="/js/contact-form-script.js"></script>
 <script src="/js/product-info-form-script.js"></script>
+<script src="/light-gallery/lightgallery.min.js"></script>
+<!-- lightgallery plugins -->
+<script src="/light-gallery/plugins/thumbnail/lg-thumbnail.umd.js"></script>
+<script src="/light-gallery/plugins/zoom/lg-zoom.umd.js"></script>
 <script src="/js/custom.js"></script>
 
-<script src="js/lightgallery.umd.js"></script>
-<!-- Or use the minified version -->
-<script src="js/lightgallery.min.js"></script>
-
-<!-- lightgallery plugins -->
-<script src="js/plugins/lg-thumbnail.umd.js"></script>
-<script src="js/plugins/lg-zoom.umd.js"></script>
 </body>
 
 </html>

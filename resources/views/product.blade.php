@@ -23,10 +23,12 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-7">
                     <div id="carousel-example-1" class="single-product-slider carousel slide" data-ride="carousel">
-                        <div class="carousel-inner" role="listbox">
+                        <div id="animated-thumbnails" class="carousel-inner" role="listbox">
                             @foreach ($product->images as $image)
                                 <div class="carousel-item
-                                    @if ($loop->first) active @endif"> <img class="d-block w-100" src="{{URL::asset('/app/' . $image)}}" alt="{{$product->title}}"> </div>
+                                    @if ($loop->first) active @endif" data-src="{{URL::asset('/app/' . $image)}}">
+                                        <img class="d-block w-100" src="{{URL::asset('/app/' . $image)}}" alt="{{$product->title}}">
+                                </div>
                             @endforeach
                         </div>
                         <a class="carousel-control-prev" href="#carousel-example-1" role="button" data-slide="prev">
@@ -80,8 +82,6 @@
             </div>
         </div>
     </div>
-
-
     <div class="modal fade" id="send-product-message" tabindex="-1" role="dialog" aria-labelledby="send-product-message-title" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">

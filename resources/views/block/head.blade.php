@@ -15,6 +15,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ asset('/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('/light-gallery/css/lightgallery-bundle.css') }}">
     <!-- Site CSS -->
     <link rel="stylesheet" href="{{ asset('/css/style.css') }}">
     <!-- Responsive CSS -->
