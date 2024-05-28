@@ -86,7 +86,7 @@
 
 <!-- Start copyright  -->
 <div class="footer-copyright">
-    <p class="footer-company">Все права защищены. &copy; 2024 <a href="#">«Синьчэнь»</a></p>
+    <p class="footer-company">Все права защищены. &copy; 2024 <a href="#">Компания «Синьчэнь»</a></p>
 </div>
 <!-- End copyright  -->
 
