@@ -18,7 +18,7 @@
                     <li class="nav-item {{ request()->is('/') ? 'active' : '' }}"><a class="nav-link" href="/">Главная</a></li>
                     <li class="nav-item {{ request()->is('about') ? 'active' : '' }}"><a class="nav-link" href="/about">О нас</a></li>
                     <li class="nav-item {{ request()->is('catalog') ? 'active' : '' }}"><a href="/catalog" class="nav-link">Продукция</a></li>
-                    <li class="nav-item {{ request()->is('portfolio') ? 'active' : '' }}"><a class="nav-link" href="/portfolio">Примеры внедрений</a></li>
+{{--                    <li class="nav-item {{ request()->is('portfolio') ? 'active' : '' }}"><a class="nav-link" href="/portfolio">Примеры внедрений</a></li>--}}
                     <li class="nav-item {{ request()->is('contact') ? 'active' : '' }}"><a class="nav-link" href="/contact">Контакты</a></li>
                 </ul>
             </div>

@@ -3,6 +3,14 @@
     <!-- Start Categories  -->
     <div class="categories-shop">
         <div class="container">
+            <div class="row" >
+                <div style="text-align: center; width: 100%"><h2 style="color: #b66d00; font-size: 34px">
+                        Купить оборудование для производства растительного масла</h2>
+                </div>
+                <div style="text-align: center; width: 100%"><h2 style="color: #b66d00; font-size: 34px">
+                    +7-983-608-1133</h2>
+                </div>
+            </div>
             <div class="row">
                 @foreach($categories as $category)
                     <x-product-category-item-main :category="$category"></x-product-category-item-main>
