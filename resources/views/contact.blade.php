@@ -39,13 +39,7 @@
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <input type="text" placeholder="Email" id="email" class="form-control" name="name" required data-error="Введите Ваш email">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="subject" name="name" placeholder="Тема сообщения" required data-error="Введите тему Вашего сообщения">
+                                        <input type="text" placeholder="Email или телефон" id="email" class="form-control" name="name" required data-error="Введите Ваш email">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
