@@ -23,7 +23,7 @@ function submitForm(){
     $.ajax({
         type: "POST",
         url: "/contact",
-        data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&message=" + message,
+        data: "name=" + name + "&email=" + email + "&msg_subject='Форма обратно связи'&message=" + message,
         headers: {'X-CSRF-TOKEN': token},
         success : function(text){
             if (text == "success"){
