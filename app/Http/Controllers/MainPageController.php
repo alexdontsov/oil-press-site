@@ -14,14 +14,23 @@ class MainPageController extends Controller
 {
     public function __invoke(): View
     {
-        $posts = Post::query()->orderBy('published_at', 'desc')->paginate(3);
+//        $posts_1 = Post::query()->orderBy('published_at', 'desc')->paginate(3);
+        $posts_1 = Post::whereHas('categories', function ($q) {
+            $q->where('slug', 'istoriia-otpravlennogo-oborudovaniia');
+        })->orderBy('published_at', 'desc')->paginate(3);
+
+        $posts_2 = Post::whereHas('categories', function ($q) {
+            $q->where('slug', 'poseshhenie-zavoda-v-kitae');
+        })->orderBy('published_at', 'desc')->paginate(3);
+
         $products = Product::query()->where('show_in_main', '=', true)->orderBy('order')->paginate(4);
         $categories = ProductCategory::query()->orderBy('order_by', 'asc')->paginate(4);
         $sliders = Slider::query()->orderBy('order', 'desc')->get();
 
         return view('main', [
             'sliders' => $sliders,
-            'posts' => $posts,
+            'posts_1' => $posts_1,
+            'posts_2' => $posts_2,
             'products' => $products,
             'categories' => $categories,
         ]);

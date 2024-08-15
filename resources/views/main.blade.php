@@ -53,14 +53,32 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="title-all text-center">
-                        <h1>Последние новости</h1>
-                        <p>Новости компании и компаний производителей оборудования по производству раститульного масла.</p>
+                        <h1>История отправленного оборудования</h1>
+                        <p>Примеры внедрения нашего оборудования на разных предприятиях.</p>
                     </div>
                 </div>
             </div>
             <div class="row">
-                @foreach($posts as $post)
-                    <x-post-item :post="$post"></x-post-item>
+                @foreach($posts_1 as $post_1)
+                    <x-post-item :post="$post_1"></x-post-item>
+                @endforeach
+            </div>
+        </div>
+    </div>
+
+    <div class="latest-blog" style="margin: 0; padding: 0">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-all text-center">
+                        <h1>Посещение завода в Китае</h1>
+                        <p>Новости компании и компаний производителей оборудования по производству растительного масла.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                @foreach($posts_2 as $post_2)
+                    <x-post-item :post="$post_2"></x-post-item>
                 @endforeach
             </div>
         </div>

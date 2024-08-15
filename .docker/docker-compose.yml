@@ -4,7 +4,7 @@ services:
         image: postgres:16.0-alpine
         environment:
             POSTGRES_DB: "oil_m"
-            POSTGRES_USER: "oim_m"
+            POSTGRES_USER: "oil_m"
             POSTGRES_PASSWORD: "oil_m"
             PGDATA: "/var/lib/postgresql/data/pgdata"
         volumes:

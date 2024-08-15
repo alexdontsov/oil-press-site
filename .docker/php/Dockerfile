@@ -27,13 +27,11 @@ RUN apt-get update && apt-get install -y \
     libpq-dev \
     && apt purge -y --auto-remove
 
-RUN curl -fsSL https://www.postgresql.org/media/keys/ACCC4CF8.asc|gpg --dearmor -o /etc/apt/trusted.gpg.d/postgresql.gpg
-RUN sh -c 'echo "deb https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+#RUN curl -fsSL https://www.postgresql.org/media/keys/ACCC4CF8.asc|gpg --dearmor -o /etc/apt/trusted.gpg.d/postgresql.gpg
+#RUN sh -c 'echo "deb https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
 
 
-RUN apt-get update && apt-get install -y postgresql-client-16
-
-
+RUN apt-get update && apt-get install -y postgresql-client
 
 #RUN pecl install xdebug \
 #    && docker-php-ext-enable xdebug
