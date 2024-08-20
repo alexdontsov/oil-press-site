@@ -120,7 +120,6 @@
 		autoplayTimeout: 6000,
         autoHeight: true,
         autoWidth:true,
-        nav: true,
 		autoplayHoverPause: true,
 		navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"],
 		responsive: {
