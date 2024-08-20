@@ -119,6 +119,8 @@
         center: true,
         nav:true,
 		autoplayTimeout: 6000,
+        smartSpeed:1000,
+        slideTransition: 'linear',
         // autoHeight: true,
         autoWidth:true,
 		autoplayHoverPause: true,
