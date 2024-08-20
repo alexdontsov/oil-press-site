@@ -121,8 +121,8 @@
 		autoplayTimeout: 6000,
         smartSpeed:1000,
         slideTransition: 'linear',
-        // autoHeight: true,
-        autoWidth:true,
+        autoHeight: true,
+        // autoWidth:true,
 		autoplayHoverPause: true,
 		navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"],
 		responsive: {
