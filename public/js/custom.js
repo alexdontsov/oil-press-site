@@ -124,7 +124,7 @@
 		navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"],
 		responsive: {
 			0: {
-				items: 2,
+				items: 1,
 				nav: true
 			},
 			600: {

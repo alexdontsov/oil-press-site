@@ -86,51 +86,51 @@
 {{--    <!-- End Blog  -->--}}
 
     <!-- Start Instagram Feed  -->
-    <div class="instagram-box">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="title-all text-center">
-                    <h1 style="color:#FFFFFF">История отправленного оборудования</h1>
-                    <p>Примеры внедрения нашего оборудования на разных предприятиях.</p>
-                </div>
-            </div>
-        </div>
-        <div class="main-instagram owl-carousel owl-theme">
-            <div class="item">
-                <div class="ins-inner-box">
-                    <img src="images/feed-1/1hreU44XW6o1YRCCC0icPrAhUYhooeWZ5uWwtdwG.png" alt="" />
-                    <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="ins-inner-box">
-                    <img src="images/feed-1/ot8HJOZCv4pScBpsq7pB4gKLIrOXnDBRPFbCOXK2.png" alt="" />
-                    <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="ins-inner-box">
-                    <img src="images/feed-1/pci31tqRSNuofeomfmhHcA2GJTOoWBAoIzGGZsud.png" alt="" />
-                    <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
+{{--    <div class="instagram-box">--}}
+{{--        <div class="row">--}}
+{{--            <div class="col-lg-12">--}}
+{{--                <div class="title-all text-center">--}}
+{{--                    <h1 style="color:#FFFFFF">История отправленного оборудования</h1>--}}
+{{--                    <p>Примеры внедрения нашего оборудования на разных предприятиях.</p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="main-instagram owl-carousel owl-theme">--}}
+{{--            <div class="item">--}}
+{{--                <div class="ins-inner-box">--}}
+{{--                    <img src="images/feed-1/1hreU44XW6o1YRCCC0icPrAhUYhooeWZ5uWwtdwG.png" alt="" />--}}
+{{--                    <div class="hov-in">--}}
+{{--                        <a href="#"><i class="fab fa-instagram"></i></a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="item">--}}
+{{--                <div class="ins-inner-box">--}}
+{{--                    <img src="images/feed-1/ot8HJOZCv4pScBpsq7pB4gKLIrOXnDBRPFbCOXK2.png" alt="" />--}}
+{{--                    <div class="hov-in">--}}
+{{--                        <a href="#"><i class="fab fa-instagram"></i></a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="item">--}}
+{{--                <div class="ins-inner-box">--}}
+{{--                    <img src="images/feed-1/pci31tqRSNuofeomfmhHcA2GJTOoWBAoIzGGZsud.png" alt="" />--}}
+{{--                    <div class="hov-in">--}}
+{{--                        <a href="#"><i class="fab fa-instagram"></i></a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
-            <div class="item">
-                <div class="ins-inner-box">
-                    <img src="images/feed-1/SyiYBwQ2eQArv5HrzJrlzVzWTyBfqYCUvyRgkJFk.png" alt="" />
-                    <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+{{--            <div class="item">--}}
+{{--                <div class="ins-inner-box">--}}
+{{--                    <img src="images/feed-1/SyiYBwQ2eQArv5HrzJrlzVzWTyBfqYCUvyRgkJFk.png" alt="" />--}}
+{{--                    <div class="hov-in">--}}
+{{--                        <a href="#"><i class="fab fa-instagram"></i></a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
     <!-- End Instagram Feed  -->
 
 
