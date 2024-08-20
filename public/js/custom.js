@@ -111,12 +111,13 @@
 	   Owl Carousel Instagram Feed
 	   ................................................. */
 
-	$('.main-instagram').owlCarousel({
+	$('#main-feed-1').owlCarousel({
 		loop: true,
 		margin: 3,
 		dots: false,
 		autoplay: true,
         center: true,
+        nav:true,
 		autoplayTimeout: 6000,
         // autoHeight: true,
         autoWidth:true,

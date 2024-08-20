@@ -95,7 +95,7 @@
                 </div>
             </div>
         </div>
-        <div class="main-instagram owl-carousel owl-theme">
+        <div id="main-feed-1" class="main-instagram owl-carousel owl-theme">
             <div class="item">
                 <div class="ins-inner-box">
                     <img src="images/feed-1/1hreU44XW6o1YRCCC0icPrAhUYhooeWZ5uWwtdwG.png" alt="" />
