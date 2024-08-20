@@ -114,11 +114,11 @@
 	$('.main-instagram').owlCarousel({
 		loop: true,
 		margin: 3,
-		dots: true,
+		dots: false,
 		autoplay: true,
         center: true,
 		autoplayTimeout: 6000,
-        autoHeight: true,
+        // autoHeight: true,
         autoWidth:true,
 		autoplayHoverPause: true,
 		navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"],
@@ -139,31 +139,31 @@
 		}
 	});
 
-    $('.main-instagram-2').owlCarousel({
-        loop: true,
-        margin: 3,
-        dots: false,
-        autoplay: true,
-        autoplayTimeout: 5000,
-        autoHeight: true,
-        autoplayHoverPause: true,
-        navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"],
-        responsive: {
-            0: {
-                items: 2,
-                nav: true
-            },
-            600: {
-                items: 5,
-                nav: true
-            },
-            1000: {
-                items: 4,
-                nav: true,
-                loop: true
-            }
-        }
-    });
+    // $('.main-instagram-2').owlCarousel({
+    //     loop: true,
+    //     margin: 3,
+    //     dots: false,
+    //     autoplay: true,
+    //     autoplayTimeout: 5000,
+    //     autoHeight: true,
+    //     autoplayHoverPause: true,
+    //     navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"],
+    //     responsive: {
+    //         0: {
+    //             items: 2,
+    //             nav: true
+    //         },
+    //         600: {
+    //             items: 5,
+    //             nav: true
+    //         },
+    //         1000: {
+    //             items: 4,
+    //             nav: true,
+    //             loop: true
+    //         }
+    //     }
+    // });
 
 	/* ..............................................
 	   Featured Products
