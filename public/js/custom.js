@@ -113,29 +113,27 @@
 
 	$('#main-feed-1').owlCarousel({
 		loop: true,
-		margin: 3,
+		margin: 5,
 		dots: false,
 		autoplay: true,
         center: true,
         nav:true,
-		autoplayTimeout: 6000,
-        smartSpeed:1000,
-        slideTransition: 'linear',
-        autoHeight: true,
-        // autoWidth:true,
+        items: 3,
+		autoplayTimeout: 3000,
+        autoWidth:true,
 		autoplayHoverPause: true,
 		navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"],
 		responsive: {
 			0: {
-				items: 1,
+				items: 2,
 				nav: true
 			},
 			600: {
-				items: 4,
+				items: 3,
 				nav: true
 			},
 			1000: {
-				items: 5,
+				items: 3,
 				nav: true,
 				loop: true
 			}
