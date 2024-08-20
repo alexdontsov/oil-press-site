@@ -113,10 +113,14 @@
 
 	$('.main-instagram').owlCarousel({
 		loop: true,
-		margin: 0,
-		dots: false,
+		margin: 3,
+		dots: true,
 		autoplay: true,
-		autoplayTimeout: 3000,
+        center: true,
+		autoplayTimeout: 6000,
+        autoHeight: true,
+        autoWidth:true,
+        nav: true,
 		autoplayHoverPause: true,
 		navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"],
 		responsive: {
@@ -125,7 +129,7 @@
 				nav: true
 			},
 			600: {
-				items: 3,
+				items: 4,
 				nav: true
 			},
 			1000: {
@@ -135,6 +139,32 @@
 			}
 		}
 	});
+
+    $('.main-instagram-2').owlCarousel({
+        loop: true,
+        margin: 3,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoHeight: true,
+        autoplayHoverPause: true,
+        navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"],
+        responsive: {
+            0: {
+                items: 2,
+                nav: true
+            },
+            600: {
+                items: 5,
+                nav: true
+            },
+            1000: {
+                items: 4,
+                nav: true,
+                loop: true
+            }
+        }
+    });
 
 	/* ..............................................
 	   Featured Products
