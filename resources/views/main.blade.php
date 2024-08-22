@@ -148,7 +148,7 @@
                 <div class="ins-inner-box">
                     <img src="images/feed-2/7QroeY7OXQQ8PKpjk6mbrSJhHzXTON9EexqgNzs6.jpg" alt="" />
                     <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a style="color:#FFFFFF; font-size: 20px" href="#">Посещение завода в Китае</a>
                     </div>
                 </div>
             </div>
@@ -156,7 +156,8 @@
                 <div class="ins-inner-box">
                     <img src="images/feed-2/Cymb6VhudUKiH24tEn9cZmJ8zaIJynhftRCw2cyo.jpg" alt="" />
                     <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
+
+                        <a style="color:#FFFFFF; font-size: 20px" href="#">Посещение завода в Китае</a>
                     </div>
                 </div>
             </div>
@@ -164,7 +165,7 @@
                 <div class="ins-inner-box">
                     <img src="images/feed-2/V1n3VrZTkZckTTVJ9Tagj213ZXxX5CroYvvFnS7o.jpg" alt="" />
                     <div class="hov-in">
-                        <a style="color:#FFFFFF; font-size: 20px" href="#">Наши клиенты любят посещать заводы....</a>
+                        <a style="color:#FFFFFF; font-size: 20px" href="#">Посещение завода в Китае</a>
                     </div>
                 </div>
             </div>
