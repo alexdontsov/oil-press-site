@@ -133,100 +133,42 @@
     </div>
     <!-- End Instagram Feed  -->
 
-
-
     <!-- Start Instagram Feed  -->
-{{--    <div class="instagram-box">--}}
-{{--        <div class="row">--}}
-{{--            <div class="col-lg-12">--}}
-{{--                <div class="title-all text-center">--}}
-{{--                    <h1 style="color:#FFFFFF">Посещение завода в Китае</h1>--}}
-{{--                    <p>Новости компании и компаний производителей оборудования по производству растительного масла.</p>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--        <div class="main-instagram-2 owl-carousel owl-theme">--}}
-{{--            <div class="item">--}}
-{{--                <div class="ins-inner-box">--}}
-{{--                    <img src="images/instagram-img-01.jpg" alt="" />--}}
-{{--                    <div class="hov-in">--}}
-{{--                        <a href="#"><i class="fab fa-instagram"></i></a>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--            <div class="item">--}}
-{{--                <div class="ins-inner-box">--}}
-{{--                    <img src="images/instagram-img-02.jpg" alt="" />--}}
-{{--                    <div class="hov-in">--}}
-{{--                        <a href="#"><i class="fab fa-instagram"></i></a>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--            <div class="item">--}}
-{{--                <div class="ins-inner-box">--}}
-{{--                    <img src="images/instagram-img-03.jpg" alt="" />--}}
-{{--                    <div class="hov-in">--}}
-{{--                        <a href="#"><i class="fab fa-instagram"></i></a>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--            <div class="item">--}}
-{{--                <div class="ins-inner-box">--}}
-{{--                    <img src="images/instagram-img-04.jpg" alt="" />--}}
-{{--                    <div class="hov-in">--}}
-{{--                        <a href="#"><i class="fab fa-instagram"></i></a>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--            <div class="item">--}}
-{{--                <div class="ins-inner-box">--}}
-{{--                    <img src="images/instagram-img-05.jpg" alt="" />--}}
-{{--                    <div class="hov-in">--}}
-{{--                        <a href="#"><i class="fab fa-instagram"></i></a>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--            <div class="item">--}}
-{{--                <div class="ins-inner-box">--}}
-{{--                    <img src="images/instagram-img-06.jpg" alt="" />--}}
-{{--                    <div class="hov-in">--}}
-{{--                        <a href="#"><i class="fab fa-instagram"></i></a>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--            <div class="item">--}}
-{{--                <div class="ins-inner-box">--}}
-{{--                    <img src="images/instagram-img-07.jpg" alt="" />--}}
-{{--                    <div class="hov-in">--}}
-{{--                        <a href="#"><i class="fab fa-instagram"></i></a>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--            <div class="item">--}}
-{{--                <div class="ins-inner-box">--}}
-{{--                    <img src="images/instagram-img-08.jpg" alt="" />--}}
-{{--                    <div class="hov-in">--}}
-{{--                        <a href="#"><i class="fab fa-instagram"></i></a>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--            <div class="item">--}}
-{{--                <div class="ins-inner-box">--}}
-{{--                    <img src="images/instagram-img-09.jpg" alt="" />--}}
-{{--                    <div class="hov-in">--}}
-{{--                        <a href="#"><i class="fab fa-instagram"></i></a>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--            <div class="item">--}}
-{{--                <div class="ins-inner-box">--}}
-{{--                    <img src="images/instagram-img-05.jpg" alt="" />--}}
-{{--                    <div class="hov-in">--}}
-{{--                        <a href="#"><i class="fab fa-instagram"></i></a>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
+    <div class="instagram-box">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="title-all text-center">
+                    <h1 style="color:#FFFFFF">Посещение завода в Китае</h1>
+                    <p>Новости компании и компаний производителей оборудования по производству растительного масла.</p>
+                </div>
+            </div>
+        </div>
+        <div id="main-feed-2" class="main-instagram owl-carousel owl-theme">
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/feed-2/7QroeY7OXQQ8PKpjk6mbrSJhHzXTON9EexqgNzs6.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/feed-2/Cymb6VhudUKiH24tEn9cZmJ8zaIJynhftRCw2cyo.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/feed-2/V1n3VrZTkZckTTVJ9Tagj213ZXxX5CroYvvFnS7o.jpg" alt="" />
+                    <div class="hov-in">
+                        <a style="color:#FFFFFF; font-size: 20px" href="#">Наши клиенты любят посещать заводы....</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- End Instagram Feed  -->
 </x-app-layout>

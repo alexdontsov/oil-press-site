@@ -1251,7 +1251,7 @@
 }
  .hov-in{
      opacity: 0;
-     background: rgba(211,59,51, 0.5);
+     background: rgba(211, 126, 51, 0.5);
      bottom: -100%;
      position: absolute;
      width: 100%;
@@ -1279,8 +1279,8 @@
      color: #ffffff;
 }
  .ins-inner-box:hover .hov-in{
-     /*bottom: 0;*/
-     /*opacity: 1;*/
+     bottom: 0;
+     opacity: 1;
 }
 /*------------------------------------------------------------------ Footer Main -------------------------------------------------------------------*/
  .footer-main{

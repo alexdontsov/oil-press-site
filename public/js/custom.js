@@ -43,8 +43,38 @@
             }
         });
 
+        $('#main-feed-2').owlCarousel({
+            loop: true,
+            margin: 5,
+            dots: false,
+            autoplay: true,
+            center: true,
+            nav:true,
+            items: 2,
+            autoplayTimeout: 3000,
+            autoWidth:true,
+            autoplayHoverPause: true,
+            stopOnHover: true,
+            singleItem: true,
+            navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"],
+            responsive: {
+                0: {
+                    items: 2,
+                    nav: true
+                },
+                600: {
+                    items: 2,
+                    nav: true
+                },
+                1000: {
+                    items: 2,
+                    nav: true,
+                    loop: true
+                }
+            }
+        });
 
-	});
+    });
 
 	/* ..............................................
 	   Fixed Menu
@@ -140,38 +170,6 @@
 	$(document).ready(function() {
 		$('[data-toggle="tooltip"]').tooltip();
 	});
-
-	/* ..............................................
-	   Owl Carousel Instagram Feed
-	   ................................................. */
-
-
-
-    // $('.main-instagram-2').owlCarousel({
-    //     loop: true,
-    //     margin: 3,
-    //     dots: false,
-    //     autoplay: true,
-    //     autoplayTimeout: 5000,
-    //     autoHeight: true,
-    //     autoplayHoverPause: true,
-    //     navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"],
-    //     responsive: {
-    //         0: {
-    //             items: 2,
-    //             nav: true
-    //         },
-    //         600: {
-    //             items: 5,
-    //             nav: true
-    //         },
-    //         1000: {
-    //             items: 4,
-    //             nav: true,
-    //             loop: true
-    //         }
-    //     }
-    // });
 
 	/* ..............................................
 	   Featured Products
