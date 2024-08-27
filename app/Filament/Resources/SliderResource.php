@@ -52,6 +52,13 @@ class SliderResource extends Resource
                             ->maxLength(255),
                         Forms\Components\TextInput::make('order')
                             ->maxLength(255),
+                        Forms\Components\Select::make('type')
+                            ->options([
+                                'main' => 'Главный слайдер',
+                                'feed_1' => 'Новости, блок №1',
+                                'feed_2' => 'Новости, блок №2',
+                            ]),
+
                     ])->columnSpan(12),
                 ])->columns(12);
     }

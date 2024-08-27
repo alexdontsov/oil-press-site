@@ -18,5 +18,6 @@ class Slider extends Model
         'link_title',
         'link_url',
         'order',
+        'type'
     ];
 }
