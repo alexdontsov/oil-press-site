@@ -51,6 +51,8 @@
                 <div class="col-xl-6 col-lg-6 col-md-5">
                     <div class="single-product-details">
                         <h1>{{$product->title}}</h1>
+                        <h5><span style="color: #0d0a0a">Цена:</span> @if ($product->price != null) {{$product->price}}&#8381;
+                            @else Уточните по телефону @endif</h5>
                         <p>{{$product->description}}</p>
                         <br>
                         <br>

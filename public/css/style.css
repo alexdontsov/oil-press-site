@@ -2678,3 +2678,10 @@
     color: #b66d00;
     font-size: 38px;
 }
+
+
+.product-rice-item {
+    color: #b66d00;
+    text-decoration: underline dashed #b66d00;
+    line-height: 20px;
+}

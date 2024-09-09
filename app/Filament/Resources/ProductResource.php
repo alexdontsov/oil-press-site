@@ -40,6 +40,9 @@ class ProductResource extends Resource
 //                                    $set('slug', Str::slug($state));
 //                                })
                             ,
+                            Forms\Components\TextInput::make('price')
+                                ->label('Цена')
+                                ->maxLength(2048),
                             Forms\Components\TextInput::make('slug')
                                 ->required()
                                 ->maxLength(2048),

@@ -24,7 +24,8 @@ class Product extends Model
         'description',
         'key_words',
         'order',
-        'show_in_main'
+        'show_in_main',
+        'price'
     ];
 
     protected $casts = [
