@@ -12,7 +12,7 @@
         <div class="why-text">
             <a href="/catalog/{{$product->category->slug}}/{{$product->slug}}"><h4>{{$product->title}}</h4></a>
             <p>{{$product->description}}</p>
-            @if ($product->price) <span class="product-rice-item">{{$product->price}}&#8381;</span>@endif
+            @if ($product->price) <span class="product-rice-item">от {{$product->price}}&#65509;</span>@endif
         </div>
     </div>
 </div>
