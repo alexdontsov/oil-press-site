@@ -51,7 +51,7 @@
                 <div class="col-xl-6 col-lg-6 col-md-5">
                     <div class="single-product-details">
                         <h1>{{$product->title}}</h1>
-                        <h5><span style="color: #0d0a0a">Цена:</span> @if ($product->price != null) от {{$product->price}}&#8381;
+                        <h5><span style="color: #0d0a0a">Цена:</span> @if ($product->price != null) <span style="color: darkred">EXW</span>  {{$product->price}}&#8381;
                             @else Уточните по телефону @endif</h5>
 
                         @if ($product->price != null) <span style="color: rgba(211,126,51,0.5)">Для уточнения цены свяжитесь с менеджером</span>@endif
